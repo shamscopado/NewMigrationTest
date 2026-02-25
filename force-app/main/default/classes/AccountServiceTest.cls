@@ -4,7 +4,7 @@ private class AccountServiceTest {
     @isTest
     static void testUpdateAccountRating() {
         
-        // Create test accounts from dev2
+        // Create test accounts changes from dev1
         List<Account> testAccounts = new List<Account>{
             new Account(Name = 'High Revenue', AnnualRevenue = 2000000),
             new Account(Name = 'Medium Revenue', AnnualRevenue = 700000),
