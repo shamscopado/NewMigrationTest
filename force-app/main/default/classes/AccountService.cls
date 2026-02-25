@@ -1,5 +1,5 @@
 public with sharing class AccountService {
-    
+    //this is to test
     public static List<Account> updateAccountRating(List<Account> accountsList) {
         
         if (accountsList == null || accountsList.isEmpty()) {
